@@ -1,0 +1,40 @@
+.create{
+    width: 100%;
+    background-color: rgb(22, 19, 46);
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 400px;
+    margin: 50px 0px 100px 0px;
+}
+
+.show_btn{
+    border-radius: 3px;
+    padding: 3px 5px;
+    cursor: pointer;
+}
+
+.container h1,h3{
+    text-align: center;
+    color: white;
+}
+
+.container form{
+    display: flex;
+    flex-direction: column;
+}
+
+.create_input{
+    height: 25px;
+    margin: 8px 0px;
+    padding: 5px 10px ;
+    font-size: 18px;
+}
+.btn{
+    background-color: transparent;
+    border: 2px solid orange;
+    color: orange;
+    margin-top: 10px;
+}
